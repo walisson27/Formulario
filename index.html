@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Formulário</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Formulário de cadastro</h1>
+    <ul>
+      <li>Nenhum campo pode estar vazio</li>
+      <li>Usuário só poderá conter letras ou números</li>
+      <li>Usuário entre 5 e 10 caracteres</li>
+      <li>Senha entre 8 e 15 caracteres</li>
+    </ul>
+    
+    <form action="/" method="POST" class='formulario'>
+      <label>Nome:</label>
+      <input type="text" class="nome confirmar">
+      <label>Sobrenome:</label>
+      <input type="text" class="sobrenome confirmar">
+      <label>CPF</label>
+      <input type="text" class="cpf confirmar">
+      <label>Usuário:</label>
+      <input type="text" class="usuario confirmar">
+      <label>Senha:</label>
+      <input type="password" class="senha confirmar">
+      <label>Confirmar Senha:</label>
+      <input type="password" class="repetir confirmar">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="./assets/js/confirmacaoCPF.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
