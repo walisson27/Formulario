@@ -1,6 +1,7 @@
 <h1 align="center">Formulário de  cadastro</h1>
 
 <h2>Tecnologias utilizadas no projeto:</h2>
+
 - HTML
 - CSS
 - javascript
