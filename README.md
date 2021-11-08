@@ -15,7 +15,8 @@
 <br>
 
 <p align="center">
-  <img src="">
+  <img src="https://user-images.githubusercontent.com/48169247/140799105-ff912238-940b-4700-b135-c483798a4417.PNG">
+  <img src="https://user-images.githubusercontent.com/48169247/140799192-6b55219c-2099-41a3-b463-d44b20e01465.PNG">
 </p>
 
 ## :rocket: Tecnologias
